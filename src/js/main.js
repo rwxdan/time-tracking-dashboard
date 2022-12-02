@@ -1,3 +1,4 @@
+import data from "./data.json" assert { type: "json" };
 const profile = document.querySelector(".report__profile");
 const actWork = document.querySelector(".report__activity--work");
 const actPlay = document.querySelector(".report__activity--play");
