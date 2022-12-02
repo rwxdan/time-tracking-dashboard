@@ -322,7 +322,7 @@ main {
   background-color: transparent;
   color: transparent;
   border: 0;
-  font-size: 0.5rem;
+  font-size: 0.625rem;
   background-image: url("../assets/images/icon-ellipsis.svg");
   background-repeat: no-repeat;
   background-position: right 0 bottom 50%;
