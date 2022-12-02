@@ -1,0 +1,69 @@
+@media screen and (max-width: 50em) {
+  .report {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+
+    &__profile {
+      grid-row: auto;
+      &__id {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        &__picture {
+          max-width: 25%;
+        }
+        &__whois {
+          margin-block: 0;
+        }
+      }
+      &__timeframe {
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;
+        padding-block: 1.5rem;
+      }
+    }
+    &__activity {
+      margin-top: 0;
+      .flex:last-child {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+      &--work.motion {
+        animation-duration: 550ms;
+      }
+
+      &--play.motion {
+        animation-duration: 600ms;
+      }
+
+      &--study.motion {
+        animation-duration: 650ms;
+      }
+
+      &--exercise.motion {
+        animation-duration: 700ms;
+      }
+
+      &--social.motion {
+        animation-duration: 750ms;
+      }
+
+      &--self-care.motion {
+        animation-duration: 800ms;
+      }
+
+      &--work,
+      &--play,
+      &--study,
+      &--exercise,
+      &--social,
+      &--self-care {
+        &.motion {
+          animation-name: left-to-inherit;
+        }
+      }
+    }
+  }
+}
