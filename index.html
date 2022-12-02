@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/png"
+      sizes="32x32"
+    />
+    <script defer src="./src/js/main.js"></script>
+    <link rel="stylesheet" href="./dist/main.css" />
+    <title>Time Tracking Dashboard</title>
+  </head>
+  <body>
+    <main class="flex">
+      <article class="report grid">
+        <div class="report__profile flex br-1">
+          <div class="report__profile__id flex br-1">
+            <img
+              src="./assets/images/image-jeremy.png"
+              alt="Jeremy report's picture"
+              class="report__profile__id__picture"
+            />
+            <div class="report__profile__id__whois">
+              <p class="fs-xs fw-300">Report for</p>
+              <h1 class="fs-l fw-300">Jeremy Robson</h1>
+            </div>
+          </div>
+          <ul role="list" class="report__profile__timeframe flex">
+            <li>
+              <button class="timestamp fs-s fw-400" id="daily">Daily</button>
+            </li>
+            <li>
+              <button class="timestamp fs-s fw-400" id="weekly">Weekly</button>
+            </li>
+            <li>
+              <button class="timestamp fs-s fw-400" id="monthly">
+                Monthly
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="report__activity report__activity--work br-1">
+          <div class="report__activity__header flex">
+            <h2 class="fs-s fw-500">Work</h2>
+            <button class="opt"><span class="sr-only">Options</span></button>
+          </div>
+          <div class="spacer-3"></div>
+          <div class="flex">
+            <h3 class="report__activity__CT fs-xl fw-300">32hrs</h3>
+            <p class="report__activity__PT fs-xs fw-300">Last Week - 36hrs</p>
+          </div>
+        </div>
+        <div class="report__activity report__activity--play br-1">
+          <div class="report__activity__header flex">
+            <h2 class="fs-s fw-500">Play</h2>
+            <button class="opt"><span class="sr-only">Options</span></button>
+          </div>
+          <div class="spacer-3"></div>
+          <div class="flex">
+            <h3 class="report__activity__CT fs-xl fw-300">10hrs</h3>
+            <p class="report__activity__PT fs-xs fw-300">Last Week - 8hrs</p>
+          </div>
+        </div>
+        <div class="report__activity report__activity--study br-1">
+          <div class="report__activity__header flex">
+            <h2 class="fs-s fw-500">Study</h2>
+            <button class="opt"><span class="sr-only">Options</span></button>
+          </div>
+          <div class="spacer-3"></div>
+          <div class="flex">
+            <h3 class="report__activity__CT fs-xl fw-300">4hrs</h3>
+            <p class="report__activity__PT fs-xs fw-300">Last Week - 7hrs</p>
+          </div>
+        </div>
+        <div class="report__activity report__activity--exercise br-1">
+          <div class="report__activity__header flex">
+            <h2 class="fs-s fw-500">Exercise</h2>
+            <button class="opt"><span class="sr-only">Options</span></button>
+          </div>
+          <div class="spacer-3"></div>
+          <div class="flex">
+            <h3 class="report__activity__CT fs-xl fw-300">4hrs</h3>
+            <p class="report__activity__PT fs-xs fw-300">Last Week - 5hrs</p>
+          </div>
+        </div>
+        <div class="report__activity report__activity--social br-1">
+          <div class="report__activity__header flex">
+            <h2 class="fs-s fw-500">Social</h2>
+            <button class="opt"><span class="sr-only">Options</span></button>
+          </div>
+          <div class="spacer-3"></div>
+          <div class="flex">
+            <h3 class="report__activity__CT fs-xl fw-300">5hrs</h3>
+            <p class="report__activity__PT fs-xs fw-300">Last Week - 10hrs</p>
+          </div>
+        </div>
+        <div class="report__activity report__activity--self-care br-1">
+          <div class="report__activity__header flex">
+            <h2 class="fs-s fw-500">Self Care</h2>
+            <button class="opt"><span class="sr-only">Options</span></button>
+          </div>
+          <div class="spacer-3"></div>
+          <div class="flex">
+            <h3 class="report__activity__CT fs-xl fw-300">2hrs</h3>
+            <p class="report__activity__PT fs-xs fw-300">Last Week - 2hrs</p>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+//colors
+$primary-clr-1: hsl(246, 80%, 60%);
+$primary-clr-2: hsl(15, 100%, 70%);
+$primary-clr-3: hsl(195, 74%, 62%);
+$primary-clr-4: hsl(348, 100%, 68%);
+$primary-clr-5: hsl(145, 58%, 55%);
+$primary-clr-6: hsl(264, 64%, 52%);
+$primary-clr-7: hsl(43, 84%, 65%);
+$neutral-clr-400: hsl(236, 100%, 98%);
+$neutral-clr-500: hsl(236, 100%, 87%);
+$neutral-clr-600: hsl(235, 45%, 61%);
+$neutral-clr-800: hsl(235, 46%, 20%);
+$neutral-clr-900: hsl(226, 43%, 10%);
+
+body {
+  font-family: "Rubik", "Comic Sans MS", "Comic Sans", sans-serif;
+  color: $neutral-clr-400;
+  background-color: $neutral-clr-900;
+}
+
+main {
+  min-height: 100vh;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+//fonts
+.fs-xs {
+  font-size: clamp(0.9375rem, 1.1vmax, 1.0625rem);
+}
+
+.fs-s {
+  font-size: 1.125rem;
+}
+
+.fs-l {
+  font-size: clamp(1.5rem, 3vmax, 2.75rem);
+}
+
+.fs-xl {
+  font-size: clamp(2rem, 4vmax, 3.5rem);
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+//utilities
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.br-1 {
+  border-radius: 1rem;
+}
+
+@mixin spacer($height, $width) {
+  height: $height;
+  width: $width;
+}
+
+.spacer-2-5 {
+  @include spacer(2.5rem, 100%);
+}
+
+.spacer-3 {
+  @include spacer(1rem, 100%);
+  @media screen and (max-width: 50em) {
+    height: 0;
+    width: auto;
+  }
+}
+
+.spacer-4 {
+  @include spacer(4rem, 100%);
+}
