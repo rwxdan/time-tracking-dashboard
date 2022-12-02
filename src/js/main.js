@@ -22,7 +22,7 @@ const reproduceMotion = () => {
     activitiesArr[0].addEventListener("animationend", () => {
       setTimeout(() => {
         activitiesArr[i].classList.add("post");
-      }, 400);
+      }, 200);
     });
   }
 };
