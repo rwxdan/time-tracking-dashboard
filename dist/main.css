@@ -349,7 +349,9 @@ select {
 }
 .report__activity__header .opt {
   background-color: transparent;
+  color: transparent;
   border: 0;
+  font-size: 0.5rem;
   background-image: url("../assets/images/icon-ellipsis.svg");
   background-repeat: no-repeat;
   background-position: right 0 bottom 50%;
