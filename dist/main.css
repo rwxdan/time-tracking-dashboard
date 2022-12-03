@@ -188,7 +188,7 @@ main.inactive {
 }
 .report {
   margin: auto;
-  max-width: 80em;
+  max-width: 75em;
   padding: 1.5rem;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
