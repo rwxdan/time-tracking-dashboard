@@ -222,6 +222,7 @@ main.inactive {
   line-height: 1.2;
 }
 .report__profile__timeframe {
+  list-style: none;
   flex-direction: column;
   gap: 1.25rem;
   padding-block: 2rem 2.25rem;
