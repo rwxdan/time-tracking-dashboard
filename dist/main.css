@@ -231,10 +231,11 @@ main {
   color: hsl(236deg, 100%, 87%);
   position: relative;
 }
-.report__profile__timeframe .timestamp:is(:hover, :focus, :active) {
+.report__profile__timeframe .timestamp:is(:hover, :focus, :active, [data-active=true]) {
+  cursor: pointer;
   color: hsl(236deg, 100%, 98%);
 }
-.report__profile__timeframe .timestamp:is(:hover, :focus, :active)::after {
+.report__profile__timeframe .timestamp:is(:hover, :focus, :active, [data-active=true])::after {
   content: "";
   position: absolute;
   bottom: 0;

@@ -57,7 +57,8 @@
         color: $neutral-clr-500;
         position: relative;
 
-        &:is(:hover, :focus, :active) {
+        &:is(:hover, :focus, :active, [data-active="true"]) {
+          cursor: pointer;
           color: $neutral-clr-400;
           &::after {
             content: "";
