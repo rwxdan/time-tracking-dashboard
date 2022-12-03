@@ -73,6 +73,9 @@ main {
   flex-direction: column;
   overflow-y: hidden;
 }
+main.inactive {
+  opacity: 0;
+}
 
 .fs-xs {
   font-size: clamp(0.9375rem, 1.1vmax, 1.0625rem);
