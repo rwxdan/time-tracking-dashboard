@@ -123,6 +123,8 @@ const activitiesArr = [
 ];
 
 const reproduceMotion = () => {
+  const main = document.querySelector("#main");
+  main.classList.remove("inactive");
   profile.classList.add("motion");
   for (let i = 0; i < activitiesArr.length; i++) {
     activitiesArr[i].classList.add("motion");
