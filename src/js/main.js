@@ -64,8 +64,8 @@ const initialStates = () => {
   studyPT.textContent = `Last Week - ${obj_study.timeframes.weekly.previous}hrs`;
   exerciseCT.textContent = `${obj_exercise.timeframes.weekly.current}hrs`;
   exercisePT.textContent = `Last Week - ${obj_exercise.timeframes.weekly.previous}hrs`;
-  socialCT.textContent = `${obj_study.timeframes.weekly.current}hrs`;
-  socialPT.textContent = `Last Week - ${obj_study.timeframes.weekly.previous}hrs`;
+  socialCT.textContent = `${obj_social.timeframes.weekly.current}hrs`;
+  socialPT.textContent = `Last Week - ${obj_social.timeframes.weekly.previous}hrs`;
   scCT.textContent = `${obj_selfCare.timeframes.weekly.current}hrs`;
   scPT.textContent = `Last Week - ${obj_selfCare.timeframes.weekly.previous}hrs`;
 };
@@ -79,8 +79,8 @@ btnDaily.addEventListener("click", () => {
   studyPT.textContent = `Last Week - ${obj_study.timeframes.daily.previous}hrs`;
   exerciseCT.textContent = `${obj_exercise.timeframes.daily.current}hrs`;
   exercisePT.textContent = `Last Week - ${obj_exercise.timeframes.daily.previous}hrs`;
-  socialCT.textContent = `${obj_study.timeframes.daily.current}hrs`;
-  socialPT.textContent = `Last Week - ${obj_study.timeframes.daily.previous}hrs`;
+  socialCT.textContent = `${obj_social.timeframes.daily.current}hrs`;
+  socialPT.textContent = `Last Week - ${obj_social.timeframes.daily.previous}hrs`;
   scCT.textContent = `${obj_selfCare.timeframes.daily.current}hrs`;
   scPT.textContent = `Last Week - ${obj_selfCare.timeframes.daily.previous}hrs`;
   if (btnWeeklyAttr) {
@@ -102,8 +102,8 @@ btnMonthly.addEventListener("click", () => {
   studyPT.textContent = `Last Week - ${obj_study.timeframes.monthly.previous}hrs`;
   exerciseCT.textContent = `${obj_exercise.timeframes.monthly.current}hrs`;
   exercisePT.textContent = `Last Week - ${obj_exercise.timeframes.monthly.previous}hrs`;
-  socialCT.textContent = `${obj_study.timeframes.monthly.current}hrs`;
-  socialPT.textContent = `Last Week - ${obj_study.timeframes.monthly.previous}hrs`;
+  socialCT.textContent = `${obj_social.timeframes.monthly.current}hrs`;
+  socialPT.textContent = `Last Week - ${obj_social.timeframes.monthly.previous}hrs`;
   scCT.textContent = `${obj_selfCare.timeframes.monthly.current}hrs`;
   scPT.textContent = `Last Week - ${obj_selfCare.timeframes.monthly.previous}hrs`;
   if (btnWeeklyAttr) {
